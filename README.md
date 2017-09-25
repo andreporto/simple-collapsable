@@ -3,10 +3,10 @@ This is a simple Angular collapsible reusable component
 
 **HTML TAG**
 ```
-<simple-collapsable>
+<simple-collapsible>
   <... sc-header> ... </...>
   <... sc-content> ... </...>
-</simple-collapsable>
+</simple-collapsible>
 ```
 
 **Important!**
