@@ -20,7 +20,7 @@ ie:
 ## Usage example in an Angular 4 project
 **Import in app.module.ts**
 ```
-import { SimpleCollapsableModule } from './simple-collapsible/simple-collapsible.module';
+import { SimpleCollapsibleModule } from './simple-collapsible/simple-collapsible.module';
 
 ...
 
