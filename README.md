@@ -1,5 +1,5 @@
-# simple-collapsable
-This is a simple Angular collapsable reusable component
+# simple-collapsible
+This is a simple Angular collapsible reusable component
 
 **HTML TAG**
 ```
@@ -20,20 +20,20 @@ ie:
 ## Usage example in an Angular 4 project
 **Import in app.module.ts**
 ```
-import { SimpleCollapsableModule } from './simple-collapsable/simple-collapsable.module';
+import { SimpleCollapsableModule } from './simple-collapsible/simple-collapsible.module';
 
 ...
 
 imports: [
     BrowserModule,
-    SimpleCollapsableModule
+    SimpleCollapsibleModule
   ],
 ...
 ```
 
 **using into a component**
 ```
-<simple-collapsable>
+<simple-collapsible>
   <div sc-header>
     <div class="sc-clickable">Clickable area1</div>
     <div>Content non-clickable</div>
@@ -44,5 +44,5 @@ imports: [
     <div>Show content2</div>
     <div>Show content3</div>
   </div>
-</simple-collapsable>
+</simple-collapsible>
 ```
