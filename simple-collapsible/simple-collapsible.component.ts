@@ -5,7 +5,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @Component({
   // tslint:disable-next-line:component-selector
-  selector: 'simple-collapsable',
+  selector: 'simple-collapsible',
   animations: [
     trigger(
       'myAnimation',
@@ -34,7 +34,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
   </div>
   `,
 })
-export class SimpleCollapsableComponent implements OnInit {
+export class SimpleCollapsibleComponent implements OnInit {
 
   expand = false;
 

@@ -2,16 +2,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { SimpleCollapsableComponent } from './simple-collapsable.component';
+import { SimpleCollapsibleComponent } from './simple-collapsible.component';
 
 @NgModule({
   declarations: [
-    SimpleCollapsableComponent
+    SimpleCollapsibleComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule
   ],
-  exports: [SimpleCollapsableComponent]
+  exports: [SimpleCollapsibleComponent]
 })
-export class SimpleCollapsableModule { }
+export class SimpleCollapsibleModule { }
