@@ -14,7 +14,7 @@ This is a simple Angular collapsible reusable component
 To indicate clickable areas to expand the content section you must use sc-clickable css class, 
 ie:
 ```
-<div class="cs-clickable">blá blá blá</div>
+<div class="sc-clickable">blá blá blá</div>
 ```
 
 ## Usage example in an Angular 4 project
