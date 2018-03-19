@@ -6,28 +6,29 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 @Component({
   // tslint:disable-next-line:component-selector
   selector: 'simple-collapsible',
+  styleUrls: ['simple-collapsible.component.scss'],
   animations: [
     trigger(
       'myAnimation',
       [
         transition(
           ':enter', [
-            style({opacity: 0}),
-            animate('500ms', style({ 'opacity': 1}))
+            style({position: 'relative', opacity: 0}),
+            animate('200ms', style({ opacity: 1}))
           ]
         ),
         transition(
           ':leave', [
-            style({ 'opacity': 1}),
-            animate('300ms', style({'opacity': 0}))
+            style({position: 'relative', opacity: 1}),
+            animate('100ms', style({opacity: 0}))
           ]
         )
     ]
     )
   ],
   template: `
-  <div (click)="onClick($event)" [ngClass]="{'expanded':expand}">
-    <ng-content select="[sc-header]" ></ng-content>
+  <div class="clickableCursor" (click)="onClick($event)" [ngClass]="{'expanded':expand}">
+    <ng-content select="[sc-header]"></ng-content>
   </div>
   <div *ngIf="expand" [@myAnimation]>
     <ng-content select="[sc-content]"  ></ng-content>
