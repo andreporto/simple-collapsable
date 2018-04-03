@@ -3,3 +3,33 @@
     cursor: pointer !important;
   }
 }
+
+.relative {
+  position: relative;
+}
+
+.expandIcon {
+  position: absolute;
+  font-size: 11px;
+  color: #f37021;
+}
+
+.top {
+  top: 0;
+}
+
+.middle {
+  top: calc(50% - 8px);
+}
+
+.bottom {
+  top: 100%;
+}
+
+.in {
+  left: 2px;
+}
+
+.out {
+  left: -12px;
+}
